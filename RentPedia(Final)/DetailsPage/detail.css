@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 2px 7px 8px #888888;
+}
+
+.nav-bar img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.nav-bar input{
+    border: none;
+    padding: 10px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 8px #888888;
+}
+
+.nav-bar input:focus{
+    outline: none;
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+    align-items: center;
+}
+
+.nav-content a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-content button{
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+}
+
+.nav-content button:hover{
+    background: rgb(127, 132, 132);
+    transition: .5s;
+}
+
+.content{
+    margin:50px 20px 50px 20px;
+}
+
+.picture{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.left img{
+    height: 500px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+}
+
+.right img{
+    width: 400px;
+    height: 250px;
+}
+
+.under-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Address{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.Address pre{
+    font-size: 20px;
+}
+
+.under-left img{
+    width: 40px;
+    height: 40px;
+}
+
+.under-left h1{
+    font-size: 80px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    justify-content: space-between;
+    margin:10px 0px;
+    text-align: center;
+    align-items: center;
+}
+
+.desc p{
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.desc-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.desc-content-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.favorite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.room{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.room img{
+    height: 20px;
+    width: 20px;
+}
+
+.room p{
+    color: red;
+    font-weight: bold;
+}
+
+.favorite-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.favorite-btn img{
+    height: 15px;
+    width: 15px;
+}
+
+.favorite button{
+    border: 1px solid gray;
+    background: white;
+}
+
+.under-desc{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.under-desc-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.favorite button:hover{
+    background-color: #A6D1E6;
+    transition: .5s;
+}
+
+.desc-content-middle{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.type pre{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+}
+
+.option select{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+select,
+select option {
+  color: #000000;
+}
+
+select:invalid,
+select option[value=""] {
+  color: #999999;
+}
+
+label {
+  display: block;
+  margin: 16px 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+.desc-content-right{
+    margin-top: 60px;
+}
+
+.desc-content-right button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.payment{
+    display: flex;
+    border: .5px solid gray;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    box-shadow: 2px 7px 8px #888888;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.information input{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.payment button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+

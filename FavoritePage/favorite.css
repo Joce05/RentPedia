@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 15px;
+    background: black;
+    box-shadow: 2px 7px 8px #888888;
+}
+
+#logo{
+    font-family: 'Hubballi', cursive;
+    font-size: 45px;
+    color: white;
+    font-weight: 100;
+    text-align: start;
+}
+
+#title{
+    color: white;
+    margin: auto;
+    flex: 1;
+    text-align: center;
+    margin-right: 140px;
+}
+
+.content{
+    margin: 50px;
+}
+
+.card{
+    width: fit-content;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+
+#house{
+    width: 300px;
+    height: 350px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    color: white;
+    padding: 10px;
+    gap: 20px;
+}
+
+.card h3{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.desc-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc-right button{
+    background-color: white;
+    border: none;
+    padding: 3px;
+    border-radius: 6px;
+}

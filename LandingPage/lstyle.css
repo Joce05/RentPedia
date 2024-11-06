@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: url(/image/back.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+header{
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background: black;
+}
+.logo{
+  margin-left: -120px;
+}
+nav li{
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+}
+a,button{
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+button{
+  margin-right: -120px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 9px 25px;
+}
+nav li a:hover{
+  color: aquamarine;
+  transition: all 0.2s ease 0s;
+}
+button:hover{
+  background-color: aquamarine;
+  transition: all 0.2s ease 0s;
+}
+.landing{
+  position: absolute;
+  bottom: 130px;
+  left: 35px;
+}
+.content{
+  color: white;
+  font-size: 25px;
+  word-spacing: 6pt;
+}
+.content1{
+  color: white;
+  font-size: 25px;
+  word-spacing: 3pt;
+}
+.home{
+  position: absolute;
+  bottom: 95px;
+  left: 35px;
+}
+button1{
+  background: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 4px 8px;
+}
+button1:hover{
+  background-color: aquamarine;
+}

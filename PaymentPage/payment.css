@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 15px;
+    background: black;
+    box-shadow: 2px 7px 8px #888888;
+}
+
+#logo{
+    font-family: 'Hubballi', cursive;
+    font-size: 45px;
+    color: white;
+    font-weight: 100;
+    text-align: start;
+}
+
+#title{
+    color: white;
+    margin: auto;
+    flex: 1;
+    text-align: center;
+    margin-right: 140px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.left p{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.middle{
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-content{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-bottom: 70px;
+}
+
+.option p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.option select{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+select,
+select option {
+  color: #000000;
+}
+
+select:invalid,
+select option[value=""] {
+  color: #999999;
+}
+
+label {
+  display: block;
+  margin: 16px 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+.right{
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.right h1{
+    margin-bottom: 50px;
+}
+
+.right-bar-content{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.pay-btn button{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.pay-btn button:hover{
+    background-color: #A6D1E6;
+    transition: .5s;
+}
+
+.pay-btn{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+

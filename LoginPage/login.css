@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    width: 400px;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+    border-radius: 35px;
+}
+
+.center h1{
+    margin-bottom: 40px;
+}
+
+#continue{
+    margin-bottom: 10px;
+}
+
+.content{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+} 
+
+.center .input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.center .input input{
+    border: 1px solid gray;
+    height: 35px;
+    width: 330px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#trouble p{
+    text-decoration: none;
+    margin-top: 19px;
+    width: 330px;
+    display: flex;
+    text-align: left;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#login_btn button{
+    background-color: #66A3FF;
+    margin: 10px;
+    padding: 15px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 5px 1px 8px #888888;
+    margin-bottom: 20px;
+}
+
+#login_btn button:hover{
+    background-color: #A6D1E6;
+    transition: .5s;
+}
+
+.center .signin{
+    margin-top: 10px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.other-sign-in button{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+.other-sign-in button:hover{
+    background-color: #A6D1E6;
+    color: black;
+    transition: .5s;
+}
+
+.other-sign-in button p{
+    justify-content: center;
+    width: 80px;
+    font-weight: 600;
+}
+
+.under{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.under a{
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+}
